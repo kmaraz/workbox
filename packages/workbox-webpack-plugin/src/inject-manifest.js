@@ -14,7 +14,7 @@ const {validateWebpackInjectManifestOptions} =
 const prettyBytes = require('pretty-bytes');
 const stringify = require('fast-json-stable-stringify');
 const upath = require('upath');
-const webpack = require('webpack');
+const webpack = require('webpack4');
 
 const getManifestEntriesFromCompilation =
   require('./lib/get-manifest-entries-from-compilation');
