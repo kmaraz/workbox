@@ -13,7 +13,7 @@ const replaceAndUpdateSourceMap = require(
 const stringify = require('fast-json-stable-stringify');
 const upath = require('upath');
 const validate = require('workbox-build/build/lib/validate-options');
-const webpack = require('webpack');
+const webpack = require('webpack4');
 const webpackInjectManifestSchema = require(
     'workbox-build/build/options/schema/webpack-inject-manifest');
 
